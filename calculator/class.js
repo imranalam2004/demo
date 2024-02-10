@@ -29,12 +29,13 @@
 //         console.log("c");
 // }
 
-var event = require('events');
-var obj= new event.EventEmitter;
-obj.addListener("dancing",function(msg){
-        console.log(msg)
-}
-)
-obj.emit("dancing","lets dance");
+// var event = require('events');
+// var obj= new event.EventEmitter;
+// obj.addListener("dancing",function(msg){
+//         console.log(msg)
+// }
+// )
+// obj.emit("dancing","lets dance");
 
+console.log("Niraj Jha");
 
